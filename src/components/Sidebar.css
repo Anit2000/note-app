@@ -1,0 +1,32 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0px;
+  height: 100vh;
+  background-color: #000;
+  min-width: 100px;
+  border-start-end-radius: 40px;
+  border-end-end-radius: 80px;
+  padding: 4% 0%;
+}
+aside button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+aside button svg {
+  width: 32px;
+  height: auto;
+  color: #fff;
+}
+.add {
+  margin-top: auto;
+  margin-bottom: auto;
+  transform: translateX(100%);
+  background-color: #0057ff;
+  padding: 14% 15%;
+  border-radius: 50%;
+  width: max-content;
+  box-shadow: 0 0 14px rgb(0 0 0 / 30%);
+}

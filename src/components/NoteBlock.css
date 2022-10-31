@@ -1,0 +1,28 @@
+.noteBlock {
+  flex: 0 0 30%;
+  max-width: 30%;
+  background: #fff;
+  border-radius: 30px;
+  padding: 2% 5% 5%;
+  height: max-content;
+}
+.read.noteBlock {
+  background-color: rgba(0, 87, 255, 4%);
+}
+.note-head {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+}
+.note-head button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.note-head button svg {
+  width: 30px;
+  height: auto;
+}
+.read .note-head .check-btn svg {
+  color: #0057ff;
+}

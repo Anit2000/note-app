@@ -1,0 +1,43 @@
+main {
+  background-color: #f6f6f6;
+  height: 100vh;
+  display: flex;
+  margin-left: 6vw;
+}
+.notes-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 4%;
+  gap: 4%;
+}
+.plus-note {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 16px;
+  animation: glow 2s infinite;
+  border-radius: 50%;
+  padding: 6px 8px;
+}
+.plus-note svg {
+  width: 24px;
+}
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 87, 255, 10%);
+  }
+  25% {
+    box-shadow: 0 0 20px rgba(0, 87, 255, 20%);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(0, 87, 255, 30%);
+  }
+  75% {
+    box-shadow: 0 0 20px rgba(0, 87, 255, 20%);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(0, 87, 255, 10%);
+  }
+}
